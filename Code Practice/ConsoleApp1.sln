@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{7874C721-B458-4051-BF63-8E853A0535EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learning", "Learning\Learning.csproj", "{D211072C-F28C-4F12-A698-980FFCC75313}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonReviewApp", "PokemonReviewApp\PokemonReviewApp.csproj", "{FAE37BD0-DE37-440F-B275-2395B5542D49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JokesWebApp", "JokesWebApp\JokesWebApp.csproj", "{ABCF72A4-29E4-419D-A74F-6C5C70F29431}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7874C721-B458-4051-BF63-8E853A0535EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7874C721-B458-4051-BF63-8E853A0535EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7874C721-B458-4051-BF63-8E853A0535EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7874C721-B458-4051-BF63-8E853A0535EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D211072C-F28C-4F12-A698-980FFCC75313}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D211072C-F28C-4F12-A698-980FFCC75313}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D211072C-F28C-4F12-A698-980FFCC75313}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D211072C-F28C-4F12-A698-980FFCC75313}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAE37BD0-DE37-440F-B275-2395B5542D49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAE37BD0-DE37-440F-B275-2395B5542D49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAE37BD0-DE37-440F-B275-2395B5542D49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAE37BD0-DE37-440F-B275-2395B5542D49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABCF72A4-29E4-419D-A74F-6C5C70F29431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABCF72A4-29E4-419D-A74F-6C5C70F29431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABCF72A4-29E4-419D-A74F-6C5C70F29431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABCF72A4-29E4-419D-A74F-6C5C70F29431}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Events</title>
+    <style>
+      body {
+        text-align: center;
+      }
+      h2 {
+        color: blueviolet;
+      }
+
+      button {
+        color: #885df1;
+        background-color: white;
+        display: block;
+        margin: 0 auto;
+        padding: 15px;
+        font-size: 16px;
+        border: 1px solid #885df1;
+        border-radius: 40px;
+        box-shadow: 3px 3px 8px #929191;
+        transition: all 150ms ease-in-out;
+      }
+
+      button:hover {
+        background-color: #885df1;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>👩🏽‍💻 SheCodes is a Coding Workshop for Women</h1>
+    <h2>Access a new career in Technology</h2>
+    <p>She Codes teaches coding, design and management skills to women</p>
+    <p><strong>Limited amount of spots!</strong></p>
+    <button>Apply Now</button>
+    <script>
+      function applyNow() {
+        let name = prompt("What is your first name?");
+        let age = prompt("How old are you?");
+
+        let h1 = document.querySelector("h1");
+
+        if (age >= 18) {
+          h1.innerHTML = "Hi, " + name + "! Welcome to SheCodes !";
+        } else {
+          h1.innerHTML = "Sorry, " + name + "! You cannot join SheCodes";
+        }
+      }
+
+      let applyButton = document.querySelector("button");
+
+      applyButton.addEventListener("click", applyNow);
+    </script>
+  </body>
+</html>

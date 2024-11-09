@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding - My hobby</title>
+    <style>
+      body {
+        background: linear-gradient(
+          290.7deg,
+          rgb(133, 255, 159) 2.3%,
+          rgb(0, 172, 249) 100.2%
+        );
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+      button {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid #00acf9;
+        background: white;
+        font-size: 24px;
+        border-radius: 4px;
+        padding: 10px 15px;
+        transition: all 150ms ease-in-out;
+      }
+
+      button:hover {
+        background: #00acf9;
+        cursor: pointer;
+      }
+
+      footer {
+        text-align: center;
+        margin: 30px 0;
+        font-size: 18px;
+      }
+
+      .container {
+        max-width: 600px;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 20px auto;
+      }
+
+      .theme-button {
+        font-size: 10px;
+        background: black;
+        color: white;
+        padding: 8px;
+      }
+
+      .theme-button:hover {
+        color: black;
+        background-color: white;
+      }
+
+      .coding-intro-picture {
+        border-radius: 10px;
+        transition: all 150ms ease-in-out;
+      }
+
+      .coding-intro-picture:hover {
+        filter: contrast(80%);
+        transform: scale(1.1);
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        margin: 15px 0;
+      }
+
+      .grid img {
+        width: 100%;
+        height: 95px;
+        border-radius: 8px;
+        transition: all 150ms ease-in-out;
+      }
+
+      .grid img:hover {
+        transform: scale(2);
+      }
+
+      .dark {
+        background: radial-gradient(
+          circle at 85.4% 50.8%,
+          rgb(14, 72, 222) 0%,
+          rgb(3, 22, 65) 74.2%
+        );
+        color: white;
+      }
+
+      .dark .container {
+        background: rgb(255, 255, 255, 0.1);
+      }
+
+      .dark a {
+        color: plum;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="theme-button">Change theme</button>
+    <div class="container">
+      <h1>What is Coding 👩🏽‍💻</h1>
+      <h2>My favourite hobby</h2>
+      <a href="https://www.shecodes.io">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/383/original/360_F_459187737_QdXGlZmaPrjIDj2ZpB4UMIAN5AN5Tqha.jpg?1720009912"
+          alt="Black female Coding"
+          width="600"
+          class="coding-intro-picture"
+        />
+      </a>
+      <div class="grid">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/415/original/Women-shaping-the-future-of-coding-blog-08.03.2023-1536x864.jpg?1720016491"
+          alt="Female Coding"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/416/original/coder.jpeg?1720016664"
+          alt="Cartoon Coding"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/381/original/excel-charter-schoolhoc-2015-stills-14.jpg?1720009748"
+          alt="Girls Coding"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/129/542/original/coding_copy.png?1718803642"
+          alt="Kids Coding"
+        />
+      </div>
+      <p>
+        Coding tells a machine which actions to perform and how to complete
+        tasks. Programming languages provide the rules for building websites,
+        apps, and other computer-based technologies.
+      </p>
+      <a href="https://www.shecodes.io"> 📖 Read more on SheCodes</a>
+    </div>
+    <footer>Coded by  🖤💙💚 Ayanda Mandisa Mbuthu  💚💙🖤</footer>
+
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+
+        if (body.classList.contains("dark")) {
+          body.classList.remove("dark");
+        } else {
+          body.classList.add("dark");
+        }
+      }
+      let themeButton = document.querySelector(".theme-button");
+      themeButton.addEventListener("click", changeTheme);
+    </script>
+  </body>
+</html>
